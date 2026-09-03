@@ -27,23 +27,23 @@
     --selectorBackgroundColor: rgb(55, 65, 81);
     --selectorBackgroundColorAlpha: rgba(55, 65, 81, 0.5);
 
-    --activeColorAlpha: rgba(119, 91, 244, 0.9);
-    --activeColor: rgb(119, 91, 244);
+    --activeColorAlpha: rgba(199, 144, 45, 0.9);
+    --activeColor: rgb(199, 144, 45);
     --osdSeekBarPlayedColor: var(--textColor);
     --osdSeekBarBufferedColorAlpha: rgba(128, 128, 128, 0.5);
     --osdSeekBarThumbColor: white;
     --tableBodyColor: rgb(31 41 55 / 1);
-    --uiAccentColor: rgb(117 111 226);
+    --uiAccentColor: rgb(199, 144, 45);
     --btnMiniPlayColor: rgb(41 154 93);
     --btnMiniPlayBorderColor: rgb(50, 167, 105);
 
     /* Base component colors */
     --btnDeleteColor: rgb(169, 29, 29);
     --btnDeleteBorderColor: rgb(217, 84, 84);
-    --btnSubmitColor: rgb(61, 54, 178);
-    --btnSubmitBorderColor: rgb(117 111 226);
-    --checkboxCheckedBgColor: rgb(79, 70, 229);
-    --highlightOutlineColor: rgb(37, 99, 235);
+    --btnSubmitColor: rgb(150, 101, 22);
+    --btnSubmitBorderColor: rgb(199, 144, 45);
+    --checkboxCheckedBgColor: rgb(199, 144, 45);
+    --highlightOutlineColor: rgb(199, 144, 45);
 
     --defaultBorder: var(--borderWidth) solid var(--borderColor);
     --defaultLighterBorder: var(--borderWidth) solid var(--lighterBorderColor);
@@ -4181,3 +4181,35 @@ for extended styling, use the add-on */
 }
 
 /* basic styling for the Media Bar Plugin - end */
+
+/* =============================================
+   CachaçaFlix customizations
+   ============================================= */
+
+.pageTitleWithLogo {
+    background-image: url('data:image/png;base64,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') !important;
+}
+
+/* Filmes/Séries tab icons (SeerrFin tabs have no icon field, so add via ::before) */
+[data-seerrfin-tab="movies"] .emby-button-foreground::before {
+    font-family: "Material Icons";
+    content: "movie";
+    margin-right: 6px;
+    vertical-align: middle;
+    font-size: 1.2em;
+}
+[data-seerrfin-tab="tv"] .emby-button-foreground::before {
+    font-family: "Material Icons";
+    content: "live_tv";
+    margin-right: 6px;
+    vertical-align: middle;
+    font-size: 1.2em;
+}
+
+/* Hide Requests/Letterboxd tabs (safe: attribute-based, not index-based).
+   Início/Favoritos still need to be disabled in SeerrFin > Settings > Tab Bar,
+   since their DOM position is dynamic and unsafe to target purely via CSS. */
+[data-seerrfin-tab="requests"],
+[data-seerrfin-tab="letterboxd"] {
+    display: none !important;
+}
