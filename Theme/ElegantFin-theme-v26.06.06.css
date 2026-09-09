@@ -27,23 +27,23 @@
     --selectorBackgroundColor: rgb(55, 65, 81);
     --selectorBackgroundColorAlpha: rgba(55, 65, 81, 0.5);
 
-    --activeColorAlpha: rgba(199, 144, 45, 0.9);
-    --activeColor: rgb(199, 144, 45);
+    --activeColorAlpha: rgba(63, 2, 145, 0.9);
+    --activeColor: rgb(63, 2, 145);
     --osdSeekBarPlayedColor: var(--textColor);
     --osdSeekBarBufferedColorAlpha: rgba(128, 128, 128, 0.5);
     --osdSeekBarThumbColor: white;
     --tableBodyColor: rgb(31 41 55 / 1);
-    --uiAccentColor: rgb(199, 144, 45);
+    --uiAccentColor: rgb(63, 2, 145);
     --btnMiniPlayColor: rgb(41 154 93);
     --btnMiniPlayBorderColor: rgb(50, 167, 105);
 
     /* Base component colors */
     --btnDeleteColor: rgb(169, 29, 29);
     --btnDeleteBorderColor: rgb(217, 84, 84);
-    --btnSubmitColor: rgb(150, 101, 22);
-    --btnSubmitBorderColor: rgb(199, 144, 45);
-    --checkboxCheckedBgColor: rgb(199, 144, 45);
-    --highlightOutlineColor: rgb(199, 144, 45);
+    --btnSubmitColor: rgb(45, 1, 104);
+    --btnSubmitBorderColor: rgb(63, 2, 145);
+    --checkboxCheckedBgColor: rgb(63, 2, 145);
+    --highlightOutlineColor: rgb(63, 2, 145);
 
     --defaultBorder: var(--borderWidth) solid var(--borderColor);
     --defaultLighterBorder: var(--borderWidth) solid var(--lighterBorderColor);
