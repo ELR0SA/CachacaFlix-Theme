@@ -1,4 +1,4 @@
-/*! ElegantFin Theme v26.06.06 for Jellyfin by lscambo13 */
+/*! CachaçaFlix Theme for Jellyfin — a personalized fork of ElegantFin (v26.06.06) by lscambo13 */
 
 /* Add-ons: Uncomment to enable */
 /* @import url(./assets/add-ons/media-bar-plugin-support-nightly.css); */
@@ -8,7 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
-    --elegantFinFooterText: "ElegantFin v26.06.06";
+    --elegantFinFooterText: "CachaçaFlix Theme";
 
     /* Base theme colors */
     color-scheme: dark;
