@@ -4338,3 +4338,13 @@ for extended styling, use the add-on */
     background-color: var(--colorOverlaySportsCover) !important;
     background-image: var(--urlSportsCover) !important;
 }
+
+/* Live TV: mostrar só a aba "Canais" na barra de abas do header.
+   A barra fica no header global (.headerTabs), compartilhada por todas
+   as páginas — por isso o :has() checando a página .liveTvPage visível,
+   pra não esconder abas em nenhuma outra tela do app. data-index="2" =
+   Canais, confirmado na estrutura real da barra (Programas=0, Guia=1,
+   Canais=2, Gravações=3, Programação=4, Séries=5). */
+body:has(.liveTvPage:not(.hide)) .headerTabs .emby-tab-button:not([data-index="2"]) {
+    display: none;
+}
